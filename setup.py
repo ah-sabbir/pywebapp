@@ -1,0 +1,23 @@
+from distutils.core import setup
+setup( name = 'pywebapp', 
+	packages = ['pywebapp'], 
+	version = '0.1', 
+	license='BSD 3-Clause License', 
+	description = 'Create web application templates and manage frontend easily ', 
+	author = 'Md-Sabbir-Ahmmed', 
+	author_email = 'ahsabbir103@gmail.com', 
+	url = 'https://github.com/ahsabbir103', 
+	download_url = '', 
+	classifiers=[ "Development Status :: Production/Stable", 
+	"Environment :: Console", 
+	"Operating System :: OS Independent", 
+	"Intended Audience :: Web Developments/Django Developers", 
+	"Programming Language :: Python", 
+	"Programming Language :: Python :: 3", 
+	"Programming Language :: Python :: 3.6", 
+	"Programming Language :: Python :: 3.7", 
+	"Programming Language :: Python :: 3.8", 
+	"Topic :: Web Design/Web Development", 
+	],
+	
+	)
